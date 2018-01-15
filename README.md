@@ -11,6 +11,7 @@
 * custom.py file is where we create the new scikit-learn compatible class that will run the regressor model and return residuals to be passed to a oneClass classifier
 * Flask_app.py this will contain our main code needed to run the flask web app
 * pkl_objects folder will contain the scikit-learn serialized models(The regressor and the full pipeline containing the regressor and classifier)
+  - I had to zip the random forest pickle file to keep it below github size restriction. You will need to unzip this locally to make it work
 * The templates folder contains the HTML template files for the web app
 * to run this web app locally:
   - From the applications main directory using python command line type ***python3 Flask_app.py***.
